@@ -20,7 +20,8 @@
      ```
    - Open the Colab notebook in Google Colab. You can also find it [here](https://colab.research.google.com/drive/1GfAK-f61cb4Fga8tegghnhkzdyl_krW8).
    - **Select a Runtime**:
-    Click on `Runtime` > `Change runtime type`, set the hardware accelerator to `GPU` (preferably **T4** or higher), and connect to the runtime. This ensures faster processing during model inference.
+    Click on `Runtime` > `Change runtime type`, set the hardware accelerator to `GPU` (preferably `T4` or higher), and connect to the runtime. This ensures faster processing during model inference.
+    
 2. **Install the required dependencies** by running:
    ```bash
    !pip install -q requests torch bitsandbytes transformers sentencepiece accelerate openai httpx==0.27.2 gradio
